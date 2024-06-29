@@ -14,7 +14,7 @@ const Todo = ({ text }: TodoProps) => {
   return (
     <div
       className={`flex items-center justify-between p-4 border-b ${
-        isCompleted ? "line-through text-gray-400" : ""
+        isCompleted ? "line-through text-black-400" : ""
       }`}
     >
       <span>{text}</span>

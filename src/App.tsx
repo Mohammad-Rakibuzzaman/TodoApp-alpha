@@ -11,7 +11,7 @@ const App = () => {
 
   return (
     <div className="max-w-md mx-auto">
-      <h1 className="text-2xl font-bold mb-4">Todo App</h1>
+      <h1 className="text-2xl font-bold mb-4">TodoApp-alpha</h1>
       <AddTodo onAdd={handleAddTodo} />
       <TodoList todos={todos} />
     </div>
